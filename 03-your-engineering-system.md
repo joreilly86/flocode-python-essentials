@@ -1,0 +1,51 @@
+# 03 | Your Engineering System
+
+**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+
+---
+
+![Engineering system roadmap](assets/flocode-roadmap.jpeg)
+
+Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. This module lays out the environment that keeps my projects tidy and repeatable.
+
+## My Everyday Stack
+
+- **VS Code** for editing and notebooks.
+- **uv** for Python installs, virtual environments, and dependency management.
+- **Jupyter** for exploratory work and reporting.
+- **Git + GitHub** for version control and sharing work.
+
+Tweak the stack to suit your workflow, but keep the principles: isolate dependencies, automate setup, and document everything.
+
+## Hit the Ground Running
+
+If you want to start coding immediately, follow the [Lean Startup walkthrough](python-for-engineers-lean-startup.md) or watch the companion video: [Python for Engineers - Lean Startup](https://www.youtube.com/watch?v=kUAJ1WoGsFk). The script installs uv, spins up a project folder, and gets a notebook running without touching the system Python.
+
+You can also explore the [Python Starter Kit repo](https://github.com/joreilly86/Python-Starter-Kit). It automatically installs and validates the core tooling before you write a single line of code.
+
+## Interactive Prompt vs Scripts
+
+There are two main ways to interact with Python:
+
+- **Interactive prompt** - Great for testing ideas quickly. Launch Python and you will see the triple chevron `>>>` prompt ready for commands.
+
+    ```python
+    >>> print('Hello, World!')
+    Hello, World!
+    >>> 1 + 1
+    2
+    ```
+
+    Handy, but nothing is saved. Once the session closes, the work is gone.
+
+- **Scripts** - Save your code in a `.py` file so you can rerun it, share it, and version it with Git. Even the simplest script teaches you the workflow of running Python from a file.
+
+## How Python Thinks About Programs
+
+Python code is just operations performed on objects. Modules contain statements, statements contain expressions, and expressions create or transform objects. Keep that mental model close—it will help when we dissect logic in later modules.
+
+## Keep Going
+
+With your environment in place and a couple of test commands under your belt, you are ready for the deep dive into notebooks and syntax. Stay patient. Smooth environments turn into smooth projects.
+
+(c) Flocode, 2025
