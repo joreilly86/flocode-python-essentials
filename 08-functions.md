@@ -1,6 +1,15 @@
 # 08 | Functions
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -128,6 +137,6 @@ Each function does one job. That makes testing easy and encourages reuse.
 2. Create a function that takes a list of beam dictionaries and returns the one with the highest utilisation ratio.
 3. Add docstrings and type hints to both functions.
 
-Functions are where clarity meets power. Start simple, name things well, and refactor often.
+Functions are where clarity meets power. Start simple, name things well, and refactor often. This is where your code stops being a script and starts being a system.
 
 (c) Flocode, 2025

@@ -7,6 +7,8 @@
 
 ## Course Overview
 
+Welcome. You're here because you want to build tools, automate workflows, and solve engineering problems without reinventing Excel macros every time. This course gives you the essentials—no fluff, no detours.
+
 We'll start with the fundamentals—variables, data types, and control flow—and build toward real engineering problems. By the end of this track you will have a dependable toolkit you can apply to calculations, reporting, and automation.
 
 ## Course Format
@@ -19,7 +21,7 @@ Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-pr
 - Set aside 2-6 hours per week and guard the time. Consistency beats intensity.
 - Type the examples out. Break them, fix them, and tweak them. Muscle memory matters.
 - Build small personal projects. Automate a report, study a dataset, or tidy a workflow at work.
-- Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off.
+- Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
 - Read the docs. Python's documentation (and most libraries you will touch) is excellent. Make it a habit.
 
 ## Tools You Will Use Most

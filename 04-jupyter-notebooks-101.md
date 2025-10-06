@@ -1,6 +1,15 @@
 # 04 | Jupyter Notebooks 101
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -103,7 +112,7 @@ Remember the leading `%` is required. Two percent signs (`%%`) apply the magic t
 
 ## Exporting and Sharing
 
-- **VS Code export**: `File → Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved; HTML rarely fails.
+- **VS Code export**: `File → Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved—trust me, I've lost hours trying to debug it. Stick with HTML and attach the file if you need to share.
 - **GitHub** renders `.ipynb` files directly in the browser. Commit the notebook and share the link.
 - **nbconvert** (optional):
 

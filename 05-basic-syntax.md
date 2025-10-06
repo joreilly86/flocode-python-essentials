@@ -1,12 +1,21 @@
 # 05 | Basic Syntax
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
 ## The Real Beginning
 
-Here is where we start writing actual Python. Syntax is the grammar of the language; once you grasp it you can express anything. Most of what follows looks simple on paper, but it forms the backbone of every project you will build later.
+This is the real beginning. Syntax is the grammar of Python. Get it right and you can express anything. Most of what follows looks simple on paper, but the concepts form the backbone of every project you'll build later. Don't rush—repetition is where fluency comes from.
 
 ## Indentation
 
@@ -110,7 +119,7 @@ Strategies that work:
 - Read the error message. It tells you the line and usually the reason.
 - Sprinkle `print()` statements or use breakpoints in VS Code to inspect variables.
 - Reduce the problem to the smallest snippet that still fails.
-- Explain the code out loud (rubber duck debugging). It is amazing how often you catch the issue mid-sentence.
+- Explain the code out loud (rubber duck debugging). **It's amazing how often you catch the issue mid-sentence.**
 
 Keep your notebooks or scripts tidy, name variables clearly, and errors become easier to hunt down.
 

@@ -1,6 +1,15 @@
 # 06 | Data Structures
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -62,7 +71,7 @@ column_base = (0.0, 0.0, 0.0)
 steel_grade = ("Steel", 7850, 200e9)
 ```
 
-Tuples keep their shape, which is handy when you want to guarantee that a set of values stays intact.
+Tuples keep their shape, which is handy when you want to guarantee that a set of values stays intact. (Full disclosure: I reach for lists 90% of the time, but tuples shine when immutability matters.)
 
 ## Sets
 

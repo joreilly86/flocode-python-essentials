@@ -1,12 +1,23 @@
 # 03 | Your Engineering System
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
 ![Engineering system roadmap](assets/flocode-roadmap.jpeg)
 
-Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. This module lays out the environment that keeps my projects tidy and repeatable.
+Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. If you've dabbled in Python before and hit setup walls, this is where we fix that. If you're itching to write code immediately, I respect that—follow the Lean Startup walkthrough first, then circle back here for the full setup.
+
+This module lays out the environment that keeps my projects tidy and repeatable.
 
 ## My Everyday Stack
 

@@ -1,6 +1,15 @@
 # 07 | Control Flow
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -125,5 +134,7 @@ Type conversion crops up constantly when you are parsing files, handling user in
 3. Wrap file IO in `try/except` and log a friendly message when the file is missing.
 
 Run these in a notebook and keep notes on what tripped you up. Control flow is simple on paper but the discipline comes from repetition.
+
+**Advanced note:** For numerical work, vectorization (operating on entire arrays at once with libraries like NumPy) can replace many loops. But when logic is complex or conditional, explicit loops are often clearer. Don't prematurely optimize.
 
 (c) Flocode, 2025

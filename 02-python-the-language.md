@@ -1,6 +1,15 @@
 # 02 | Python the Language
 
-**Modules:** [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -34,6 +43,8 @@ Use AI assistants when you get stuck, but treat them like teammates—not oracle
 ## Closing Thoughts
 
 Python is the power tool that lets you move beyond manual workflows. Stick with the fundamentals, keep experimenting, and share what you learn. The dividends show up faster than you expect.
+
+There's a long road ahead, but the fundamentals move fast once they click. Let's get started.
 
 > "The beginning is the most important part of the work." - Plato
 
