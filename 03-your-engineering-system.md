@@ -13,8 +13,6 @@
 
 ---
 
-![Engineering system roadmap](assets/flocode-roadmap.jpeg)
-
 Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. If you've dabbled in Python before and hit setup walls, this is where we fix that. If you're itching to write code immediately, I respect that—follow the Lean Startup walkthrough first, then circle back here for the full setup.
 
 This module lays out the environment that keeps my projects tidy and repeatable.

@@ -40,9 +40,28 @@ What you will learn:
 - **Tools of the trade** - practical workflows with uv, VS Code, and Jupyter notebooks.
 - **A repeatable process** - how to decompose messy problems into code-sized building blocks.
 
+## How to Approach the Essentials
+
+- Be patient with the basics. A solid foundation makes the advanced topics straightforward.
+- Set aside 2-6 hours per week and guard the time. Consistency beats intensity.
+- Type the examples out. Break them, fix them, and tweak them. Muscle memory matters.
+- Build small personal projects. Automate a report, study a dataset, or tidy a workflow at work.
+- Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
+- Read the docs. Python's documentation (and most libraries you will touch) is excellent. Make it a habit.
+
+## Python Roadmap
+
+![Flocode Python Roadmap](assets/flocode-roadmap.jpeg)
+
+This roadmap reflects my own path learning Python. Each node represents a deep topic, multiple careers span any single one of these areas. You don't need to become an expert in every node to use Python effectively. The goal is gradual understanding of the landscape, which gives you freedom and control whether you're scripting simple tasks, automating workflows, or building enterprise-level tools.
+
+Treat it as a map, not a checklist.
+
 ## A Note Before You Start
 
-Coding feels awkward at the beginning. That friction is normal. Focus on steady effort, keep notes on what you try, and expect plateaus as well as breakthroughs. Mastery comes from repeatedly breaking problems down, testing ideas, and tightening the loop between thinking, writing code, and reviewing the results.
+Coding feels awkward and confusing at the beginning. That friction is normal. Focus on steady effort, keep notes on what you try, and expect plateaus as well as breakthroughs. You may feel overwhelmed at the scope of the terminology and systems, that's also normal. 
+
+Mastery comes from repeatedly breaking problems down, testing ideas, and tightening the loop between thinking, writing code, and reviewing the results.
 
 > "Measurement is the first step that leads to control and eventually to improvement. If you can't measure something, you can't understand it. If you can't understand it, you can't control it. If you can't control it, you can't improve it." - H. James Harrington
 
