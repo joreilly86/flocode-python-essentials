@@ -4,6 +4,14 @@
 
 Welcome to the Essentials track. This is the foundation of the Flocode curriculum and the starting point for engineers who want to put Python to work in the real world.
 
+If you're completely new to Python for Engineering, you can also check out the [Introductory Course on Youtube](https://www.youtube.com/watch?v=VzvxLa2XMHo&list=PLjbxCdRUFyavq7ZhqqA5IsVD7uf5-szoU) which provides a higher level overview of the topic.
+
+<a href="https://www.youtube.com/watch?v=VzvxLa2XMHo&list=PLjbxCdRUFyavq7ZhqqA5IsVD7uf5-szoU">
+  <img src="assets/001_intro.png" alt="Intro to Python Course" width="400">
+</a>
+
+
+
 If you find this material valuable, consider sharing it with your team or supporting the work through the [Flocode Newsletter](https://flocode.dev/newsletter). The more engineers we help, the better our industry becomes.
 
 ---

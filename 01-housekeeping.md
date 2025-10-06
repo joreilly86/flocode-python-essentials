@@ -1,7 +1,15 @@
 # 01 | Housekeeping
 
-**Modules:** 
-- [01](01-housekeeping.md) | [02](02-python-the-language.md) | [03](03-your-engineering-system.md) | [04](04-jupyter-notebooks-101.md) | [05](05-basic-syntax.md) | [06](06-data-structures.md) | [07](07-control-flow.md) | [08](08-functions.md)
+## Modules
+
+- [01 - Housekeeping](01-housekeeping.md)
+- [02 - Python the Language](02-python-the-language.md)
+- [03 - Your Engineering System](03-your-engineering-system.md)
+- [04 - Jupyter Notebooks 101](04-jupyter-notebooks-101.md)
+- [05 - Basic Syntax](05-basic-syntax.md)
+- [06 - Data Structures](06-data-structures.md)
+- [07 - Control Flow](07-control-flow.md)
+- [08 - Functions](08-functions.md)
 
 ---
 
@@ -18,9 +26,9 @@ Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-pr
 ## How to Approach the Essentials
 
 - Be patient with the basics. A solid foundation makes the advanced topics straightforward.
-- Set aside 2-6 hours per week and guard the time. Consistency beats intensity.
-- Type the examples out. Break them, fix them, and tweak them. Muscle memory matters.
-- Build small personal projects. Automate a report, study a dataset, or tidy a workflow at work.
+- Set aside 2-4 hours per week and guard the time. Consistency beats intensity.
+- Type the examples out. Break them, fix them, and tweak them. Muscle memory is part of the learning process.
+- Build small personal projects. Automate a report, study a dataset, create a workout tracker or tidy a workflow at work.
 - Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
 - Read the docs. Python's documentation (and most libraries you will touch) is excellent. Make it a habit.
 
