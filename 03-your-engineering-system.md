@@ -32,6 +32,17 @@ If you want to start coding immediately, follow the [Lean Startup walkthrough](p
 
 You can also explore the [Python Starter Kit repo](https://github.com/joreilly86/Python-Starter-Kit). It automatically installs and validates the core tooling before you write a single line of code.
 
+## Cloud-Based Alternatives
+
+Not ready to install locally? These free cloud platforms let you start immediately:
+
+- **[Google Colab](https://colab.research.google.com/)** - Free notebooks with GPU access, saves to Google Drive
+- **[Kaggle Notebooks](https://www.kaggle.com/code)** - Built-in datasets and community
+- **[Marimo](https://marimo.io/)** - Modern reactive notebooks that auto-update
+- **[Quarto](https://quarto.org/)** - Publish notebooks as websites, PDFs, or presentations
+
+These are excellent for learning and sharing work without local setup.
+
 ## Interactive Prompt vs Scripts
 
 There are two main ways to interact with Python:
@@ -48,6 +59,8 @@ There are two main ways to interact with Python:
     Handy, but nothing is saved. Once the session closes, the work is gone.
 
 - **Scripts** - Save your code in a `.py` file so you can rerun it, share it, and version it with Git. Even the simplest script teaches you the workflow of running Python from a file.
+
+- **Notebooks** - Combine code, output, and documentation in one file (`.ipynb`). Perfect for exploratory work and technical reports. See [04-jupyter-notebooks-101.md](04-jupyter-notebooks-101.md) for details.
 
 ## How Python Thinks About Programs
 

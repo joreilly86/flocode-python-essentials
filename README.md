@@ -43,7 +43,7 @@ What you will learn:
 ## How to Approach the Essentials
 
 - Be patient with the basics. A solid foundation makes the advanced topics straightforward.
-- Set aside 2-6 hours per week and guard the time. Consistency beats intensity.
+- Set aside 2-4 hours per week and guard the time. Consistency beats intensity.
 - Type the examples out. Break them, fix them, and tweak them. Muscle memory matters.
 - Build small personal projects. Automate a report, study a dataset, or tidy a workflow at work.
 - Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
@@ -84,10 +84,11 @@ These references stay public and stable:
 - [SciPy documentation](https://docs.scipy.org/doc/scipy/)
 - [GitHub Guides](https://docs.github.com/en/get-started/quickstart)
 
-## Final Word
+## Quick Capstone Challenge\n\nOnce you finish the modules, pull everything together:\n\n1. Open the notebooks in /examples and reproduce the calculations on your own.\n2. Turn one of the routines into a small script that reads a text file, performs a check, and writes a short report.\n3. Drop the script into version control so you can iterate in the intermediate course.\n\nIt does not need to be fancy—the goal is to ship something end to end, just like you will on the next project at work.\n\n\n## Final Word
 
 You do not need to memorise Python. You need to learn how to think with it. Treat every module as a set of tools you can mix and match. Document what you try, share your wins, and send suggestions my way so the next engineer who lands here gets an even better experience.
 
 See you on the inside.
 
 James
+

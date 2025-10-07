@@ -2,6 +2,8 @@
 
 This walkthrough gets you from zero to a working Jupyter notebook with the exact tooling used throughout the course. Follow it straight through and you will have a clean environment managed by uv, ready for real work.
 
+It's important to understand this process but if you want to white-knuckle it - you can automate the process using the [Flocode Python Starter Kit](https://github.com/joreilly86/Python-Starter-Kit). It's a script that installs everything you need to get up and running.
+
 ## 1. Install PowerShell 7 (if needed)
 
 Grab the latest version from Microsoft: <https://learn.microsoft.com/powershell/scripting/install/installing-powershell-on-windows>.

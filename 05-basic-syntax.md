@@ -103,10 +103,10 @@ result = 2 ** 3 * 4     # 32
 A few reminders:
 
 - Division always returns a float. Use `//` when you need integer results.
-- Modulus is handy for checking divisibility; for example,  `n % 2 == 0` checks for even numbers. 
+- Modulus is handy for checking divisibility; for example, `n % 2 == 0` checks for even numbers.
 - Exponentiation uses `**`, not `^`.
 
-## Debugging Without Panic
+## Working with Files\n\nReading and writing text files is a day-one task for most engineers. Use the with statement so files close automatically.\n\n`python\nfrom pathlib import Path\n\ndata_path = Path('loads.txt')\n\nwith data_path.open('w', encoding='utf-8') as fh:\n    fh.write('Roof = 12.5\n')\n\nwith data_path.open('r', encoding='utf-8') as fh:\n    for line in fh:\n        print(line.strip())\n`\n\nThe first block writes a single line. The second block reads the file back and strips the newline so you get clean output.\n\n\n## Debugging Without Panic
 
 Errors are part of the process. You will run into three main categories:
 
@@ -119,8 +119,13 @@ Strategies that work:
 - Read the error message. It tells you the line and usually the reason.
 - Sprinkle `print()` statements or use breakpoints in VS Code to inspect variables.
 - Reduce the problem to the smallest snippet that still fails.
-- Explain the code out loud (rubber duck debugging). **It's amazing how often you catch the issue mid-sentence.**
+- Explain the code out loud (rubber duck debugging). It's amazing how often you catch the issue mid-sentence.
 
 Keep your notebooks or scripts tidy, name variables clearly, and errors become easier to hunt down.
 
+## Practice
+
+If you want to see the ideas in action, load `examples/05-engineering-calculations.ipynb`.
+
 (c) Flocode, 2025
+

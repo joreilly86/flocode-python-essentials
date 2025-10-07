@@ -25,7 +25,7 @@ If your background is spreadsheets and VBA, you're in good shape. Loops, conditi
 
 Python was designed to "fit your brain." A small set of ideas shows up everywhere: objects, readable syntax, and one obvious way to do something. Because the language is consistent, you'll spend less time memorising keywords and more time thinking about the actual problem you need to solve.
 
-## Interpreted and Iterative
+## Interpreted and Iterative\n\n## Using the Standard Library\n\nEven at the essentials level you can lean on Python's built-in modules. They cover math, file paths, dates, random numbers, and more without installing anything extra.\n\n`python\nimport math\nfrom pathlib import Path\n\nradius = 1.5\narea = math.pi * radius ** 2\n\nproject_dir = Path.home() / 'projects' / 'wind_analysis'\n`\n\nImport the pieces you need, use them, and move on. We'll go deeper on modules in the intermediate course, but it's worth knowing these batteries are already included.\n\n
 
 Python is interpreted, which means you can run a line of code the moment you write it. That rapid feedback loop is perfect for testing calculations, prototyping automation, or validating data. Yes, compiled languages can be faster, but in structural and civil work the bottleneck is rarely the CPU—it's almost always the human chasing the right assumptions.
 
@@ -49,3 +49,4 @@ There's a long road ahead, but the fundamentals move fast once they click. Let's
 > "The beginning is the most important part of the work." - Plato
 
 (c) Flocode, 2025
+

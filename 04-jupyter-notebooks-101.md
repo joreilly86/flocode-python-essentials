@@ -54,11 +54,11 @@ I run notebooks inside VS Code, backed by environments managed with uv. Adjust t
 
 5. **Install the VS Code extensions**: "Python" and "Jupyter" by Microsoft.
 
-6. **Select the environment**: `Ctrl+Shift+P` → "Python: Select Interpreter" → choose the `.venv` that uv created.
+6. **Select the environment**: `Ctrl+Shift+P` -> "Python: Select Interpreter" -> choose the `.venv` that uv created.
 
 ## Starting a Notebook in VS Code
 
-- `Ctrl+Shift+P` → "Jupyter: Create New Blank Notebook"
+- `Ctrl+Shift+P` -> "Jupyter: Create New Blank Notebook"
 - Set the kernel to your `.venv` (top-right of the window)
 - Name the notebook and save it into the project
 
@@ -112,7 +112,7 @@ Remember the leading `%` is required. Two percent signs (`%%`) apply the magic t
 
 ## Exporting and Sharing
 
-- **VS Code export**: `File → Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved—trust me, I've lost hours trying to debug it. Stick with HTML and attach the file if you need to share.
+- **VS Code export**: `File -> Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved—trust me, I've lost hours trying to debug it. Stick with HTML and attach the file if you need to share.
 - **GitHub** renders `.ipynb` files directly in the browser. Commit the notebook and share the link.
 - **nbconvert** (optional):
 
@@ -121,6 +121,8 @@ Remember the leading `%` is required. Two percent signs (`%%`) apply the magic t
     ```
 
 ## Practice Routines
+
+You can load the companion notebook at `examples/00-jupyter-notebooks-101.ipynb` if you want a head start.
 
 1. **Warm-up notebook**
     - Create a new notebook.
