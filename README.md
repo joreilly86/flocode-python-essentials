@@ -46,7 +46,7 @@ What you will learn:
 - Set aside 2-4 hours per week and guard the time. Consistency beats intensity.
 - Type the examples out. Break them, fix them, and tweak them. Muscle memory matters.
 - Build small personal projects. Automate a report, study a dataset, or tidy a workflow at work.
-- Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
+- Swap notes with other engineers. Share questions and lessons learned, the collaboration pays off more than you expect.
 - Read the docs. Python's documentation (and most libraries you will touch) is excellent. Make it a habit.
 
 ## Python Roadmap
@@ -73,6 +73,10 @@ There are no formal prerequisites. If you are brand new to programming, the free
 
 These references stay public and stable:
 
+- [Flocode Python Starter Kit](https://github.com/joreilly86/Python-Starter-Kit)
+- [Python Libraries for Engineers](https://github.com/joreilly86/Python-Libraries-for-Engineers)
+- [Create Notebook Project](https://github.com/joreilly86/create_notebook_project)
+- [Flocode Prompt Library](https://github.com/joreilly86/Flocode-Prompt-Library)
 - [Python.org Downloads](https://www.python.org/downloads/)
 - [uv documentation](https://docs.astral.sh/uv/)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -84,11 +88,22 @@ These references stay public and stable:
 - [SciPy documentation](https://docs.scipy.org/doc/scipy/)
 - [GitHub Guides](https://docs.github.com/en/get-started/quickstart)
 
-## Quick Capstone Challenge\n\nOnce you finish the modules, pull everything together:\n\n1. Open the notebooks in /examples and reproduce the calculations on your own.\n2. Turn one of the routines into a small script that reads a text file, performs a check, and writes a short report.\n3. Drop the script into version control so you can iterate in the intermediate course.\n\nIt does not need to be fancy—the goal is to ship something end to end, just like you will on the next project at work.\n\n\n## Final Word
+
+## Quick Challenge
+
+Once you finish the modules, pull everything together:
+
+1. Open the notebooks in `/examples` and reproduce the calculations on your own.
+2. Turn one of the routines into a small script that reads a text file, performs a check, and writes a short report.
+3. Drop the script into version control so you can iterate in the intermediate course.
+
+It does not need to be fancy, the goal is to ship something end to end, just like you will on the next project at work.
+
+## Final Word
 
 You do not need to memorise Python. You need to learn how to think with it. Treat every module as a set of tools you can mix and match. Document what you try, share your wins, and send suggestions my way so the next engineer who lands here gets an even better experience.
 
 See you on the inside.
 
-James
+James 🌊
 

@@ -19,15 +19,33 @@ Python is approachable, expressive, and loaded with libraries that map onto real
 
 ## Coming from Excel (or VBA)
 
-If your background is spreadsheets and VBA, you're in good shape. Loops, conditionals, and data wrangling concepts transfer directly. The steep part of the learning curve is usually the tooling—package managers, environments, and keeping projects organised. Stick with it. Once your setup is dialled in, the rest of the journey moves quickly.
+If your background is spreadsheets and VBA, you're in good shape. Loops, conditionals, and data wrangling concepts transfer directly. The steep part of the learning curve is usually the tooling, package managers, environments, and keeping projects organised. Stick with it. Once your setup is dialled in, the rest of the journey moves quickly.
 
 ## Design Philosophy
 
 Python was designed to "fit your brain." A small set of ideas shows up everywhere: objects, readable syntax, and one obvious way to do something. Because the language is consistent, you'll spend less time memorising keywords and more time thinking about the actual problem you need to solve.
 
-## Interpreted and Iterative\n\n## Using the Standard Library\n\nEven at the essentials level you can lean on Python's built-in modules. They cover math, file paths, dates, random numbers, and more without installing anything extra.\n\n`python\nimport math\nfrom pathlib import Path\n\nradius = 1.5\narea = math.pi * radius ** 2\n\nproject_dir = Path.home() / 'projects' / 'wind_analysis'\n`\n\nImport the pieces you need, use them, and move on. We'll go deeper on modules in the intermediate course, but it's worth knowing these batteries are already included.\n\n
+## Interpreted and Iterative
 
-Python is interpreted, which means you can run a line of code the moment you write it. That rapid feedback loop is perfect for testing calculations, prototyping automation, or validating data. Yes, compiled languages can be faster, but in structural and civil work the bottleneck is rarely the CPU—it's almost always the human chasing the right assumptions.
+Python is interpreted, which means you can run code line by line as you write it. This rapid feedback loop is perfect for testing calculations, prototyping automation, or validating data.
+
+## Using the Standard Library
+
+Even at the essentials level, you can lean on Python's built-in modules. They cover math, file paths, dates, random numbers, and more without installing anything extra.
+
+```python
+import math
+from pathlib import Path
+
+radius = 1.5
+area = math.pi * radius ** 2
+
+project_dir = Path.home() / 'projects' / 'wind_analysis'
+```
+
+Import the pieces you need, use them, and move on. We'll go deeper on modules in the intermediate course, but it's worth knowing these batteries are already included.
+
+Python is interpreted, which means you can run a line of code the moment you write it. That rapid feedback loop is perfect for testing calculations, prototyping automation, or validating data. Yes, compiled languages can be faster, but in structural and civil work the bottleneck is rarely the CPU, it's almost always the human chasing the right assumptions.
 
 ## The Path to Mastery
 
@@ -38,7 +56,7 @@ Everyone moves through similar stages. Knowing the map helps you stay patient.
 - **Advanced** - Work with concurrency, vectorisation, and performance tuning. Profile and optimise your solutions.
 - **Expert** - Understand how Python works under the hood, design larger systems, and stay current with new tools in your niche.
 
-Use AI assistants when you get stuck, but treat them like teammates—not oracles. The point is to sharpen your judgment, not to outsource it.
+Use AI assistants when you get stuck, but treat them like teammates, not oracles. The point is to sharpen your judgment, not to outsource it.
 
 ## Closing Thoughts
 
@@ -46,7 +64,8 @@ Python is the power tool that lets you move beyond manual workflows. Stick with 
 
 There's a long road ahead, but the fundamentals move fast once they click. Let's get started.
 
-> "The beginning is the most important part of the work." - Plato
+> ## "The beginning is the most important part of the work." 
+>  - Plato
 
 (c) Flocode, 2025
 

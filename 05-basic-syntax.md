@@ -15,18 +15,18 @@
 
 ## The Real Beginning
 
-This is the real beginning. Syntax is the grammar of Python. Get it right and you can express anything. Most of what follows looks simple on paper, but the concepts form the backbone of every project you'll build later. Don't rush—repetition is where fluency comes from.
+This is the real beginning. Syntax is the grammar of Python. Get it right and you can express anything. Most of what follows looks simple on paper, but the concepts form the backbone of every project you'll build later. Don't rush, repetition is where fluency comes from.
 
 ## Indentation
 
-Python uses indentation to define code blocks. Four spaces is the convention; stick with it and life stays easy.
+Python uses indentation to define code blocks. Four spaces is the convention; stick with it and life stays easy. You can use the 'Tab' key to indent four spaces.
 
 ```python
 if 5 > 2:
     print("Five is greater than two!")
 ```
 
-If you skip the indentation, Python raises an error immediately. That immediate feedback is a feature, not a pain point.
+If you skip the indentation, Python raises an error immediately. That immediate feedback is a feature, not a pain point, it allows you to read code and identify hierarchichal structures.
 
 ## Comments
 
@@ -78,7 +78,16 @@ Many statements contain expressions; understanding the difference helps when we 
 
 Python follows the same rules you learned in school: **P**arentheses, **E**xponents, **M**ultiplication, **D**ivision, **A**ddition, **S**ubtraction.
 
-![Order of operations diagram](assets/order-of-operations.png)
+Remember PEMDAS:
+
+1. **P**arentheses
+2. **E**xponents
+3. **M**ultiplication
+4. **D**ivision
+5. **A**ddition
+6. **S**ubtraction
+
+Operations at the same level (multiplication/division, addition/subtraction) are evaluated left to right.
 
 Examples:
 
@@ -106,7 +115,27 @@ A few reminders:
 - Modulus is handy for checking divisibility; for example, `n % 2 == 0` checks for even numbers.
 - Exponentiation uses `**`, not `^`.
 
-## Working with Files\n\nReading and writing text files is a day-one task for most engineers. Use the with statement so files close automatically.\n\n`python\nfrom pathlib import Path\n\ndata_path = Path('loads.txt')\n\nwith data_path.open('w', encoding='utf-8') as fh:\n    fh.write('Roof = 12.5\n')\n\nwith data_path.open('r', encoding='utf-8') as fh:\n    for line in fh:\n        print(line.strip())\n`\n\nThe first block writes a single line. The second block reads the file back and strips the newline so you get clean output.\n\n\n## Debugging Without Panic
+## Working with Files
+
+Reading and writing text files is a day-one task for most engineers. Use the with statement so files close automatically.
+
+```python
+from pathlib import Path
+
+data_path = Path('loads.txt')
+
+with data_path.open('w', encoding='utf-8') as fh:
+    fh.write('Roof = 12.5\n')
+
+with data_path.open('r', encoding='utf-8') as fh:
+    for line in fh:
+        print(line.strip())
+```
+
+The first block writes a single line. The second block reads the file back and strips the newline so you get clean output.
+
+
+## Debugging Without Panic
 
 Errors are part of the process. You will run into three main categories:
 
@@ -128,4 +157,3 @@ Keep your notebooks or scripts tidy, name variables clearly, and errors become e
 If you want to see the ideas in action, load `examples/05-engineering-calculations.ipynb`.
 
 (c) Flocode, 2025
-

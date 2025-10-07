@@ -13,7 +13,7 @@
 
 ---
 
-Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. If you've dabbled in Python before and hit setup walls, this is where we fix that. If you're itching to write code immediately, I respect that—follow the Lean Startup walkthrough first, then circle back here for the full setup.
+Getting the tooling right is the difference between momentum and frustration. I learned that the hard way. If you've dabbled in Python before and hit setup walls, this is where we fix that. If you're itching to write code immediately, I respect that, run the Flocode Python Starter Kit first, then circle back here for the full setup.
 
 This module lays out the environment that keeps my projects tidy and repeatable.
 
@@ -28,9 +28,7 @@ Tweak the stack to suit your workflow, but keep the principles: isolate dependen
 
 ## Hit the Ground Running
 
-If you want to start coding immediately, follow the [Lean Startup walkthrough](python-for-engineers-lean-startup.md) or watch the companion video: [Python for Engineers - Lean Startup](https://www.youtube.com/watch?v=kUAJ1WoGsFk). The script installs uv, spins up a project folder, and gets a notebook running without touching the system Python.
-
-You can also explore the [Python Starter Kit repo](https://github.com/joreilly86/Python-Starter-Kit). It automatically installs and validates the core tooling before you write a single line of code.
+If you want to start coding immediately, open [python-starter-kit/README.md](python-starter-kit/README.md) and run `flocode_python_setup.bat`. The script installs `uv`, sets up VS Code with the right extensions, and verifies your environment before you touch the system Python. You can pull the latest version or share it with teammates from the [Flocode Python Starter Kit repo](https://github.com/joreilly86/Python-Starter-Kit).
 
 ## Cloud-Based Alternatives
 
@@ -64,7 +62,7 @@ There are two main ways to interact with Python:
 
 ## How Python Thinks About Programs
 
-Python code is just operations performed on objects. Modules contain statements, statements contain expressions, and expressions create or transform objects. Keep that mental model close—it will help when we dissect logic in later modules.
+Python code is just operations performed on objects. Modules contain statements, statements contain expressions, and expressions create or transform objects. Keep that mental model close, it will help when we dissect logic in later modules.
 
 ## Keep Going
 

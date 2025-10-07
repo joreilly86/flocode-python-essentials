@@ -15,13 +15,17 @@
 
 ## Course Overview
 
-Welcome. You're here because you want to build tools, automate workflows, and solve engineering problems without reinventing Excel macros every time. This course gives you the essentials—no fluff, no detours.
+Welcome. You're here because you want to learn Python, build tools, automate workflows, and solve engineering problems without reinventing Excel macros every time. This course gives you the essentials, no waffling, no detours.
 
-We'll start with the fundamentals—variables, data types, and control flow—and build toward real engineering problems. By the end of this track you will have a dependable toolkit you can apply to calculations, reporting, and automation.
+We'll start with the fundamentals, variables, data types, and control flow, and build toward real engineering problems. By the end you will have a dependable toolkit you can apply to calculations, reporting, and automation.
+
+We will build on these principles in the future intermediate course.
 
 ## Course Format
 
-Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-projects. Formats will evolve as the course matures, so treat this repository as a living document. When I tighten something up or add a new example, you will see it here first.
+Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-projects. Formats will evolve as the course matures, so treat this repository as a living document. When I tighten something up or add a new example, you will see it here first. Feel free free to suggest changes/updates in the discussions. 
+
+Once upon a time, this course existed as a vast curriculum of tutorial videos but I think this current text-based format is the fastest and most effective way to ingest the information and learn.
 
 ## How to Approach the Essentials
 
@@ -29,8 +33,9 @@ Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-pr
 - Set aside 2-4 hours per week and guard the time. Consistency beats intensity.
 - Type the examples out. Break them, fix them, and tweak them. Muscle memory is part of the learning process.
 - Build small personal projects. Automate a report, study a dataset, create a workout tracker or tidy a workflow at work.
-- Swap notes with other engineers. Share questions and lessons learned—the collaboration pays off more than you expect.
+- Swap notes with other engineers. Share questions and lessons learned, the collaboration pays off more than you expect.
 - Read the docs. Python's documentation (and most libraries you will touch) is excellent. Make it a habit.
+- Don't worry about the more advanced topics yet (git, plotting, packages etc.), they are coming.
 
 ## Tools You Will Use Most
 
@@ -39,7 +44,7 @@ Expect a mix of walkthroughs, code-along notebooks, short exercises, and mini-pr
 - Jupyter notebooks for interactive exploration
 - Git and GitHub for version control
 
-If you want a quickest-path setup, the [Lean Startup walkthrough](python-for-engineers-lean-startup.md) gets you coding in a notebook with the essentials installed.
+If you want a quickest-path setup, start with the [Flocode Python Starter Kit](python-starter-kit/README.md) and run the included script to get coding immediately.
 
 ---
 

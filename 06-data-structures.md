@@ -40,7 +40,7 @@ Use strings for tags, filenames, report headings, or any other text you need to 
 
 ## Lists
 
-Lists are ordered, mutable collections. Great for sequences of anything—numbers, strings, even other lists.
+Lists are ordered, mutable collections. Great for sequences of anything, numbers, strings, even other lists.
 
 ```python
 beam_lengths = [5.2, 6.7, 4.8, 7.1]

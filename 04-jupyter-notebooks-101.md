@@ -17,6 +17,8 @@
 
 Jupyter notebooks let you mix code, narrative, math, and plots in a single document. That makes them perfect for exploratory work, design calculations, and sharing results with teammates who do not want to trawl through raw Python files.
 
+I start most of my work in a notebook because it allows for easy modularization of code. Once I'm happy with it, I might turn it into a script for automating something or I may keep it as a notebook to document my design process with commentary and notes and outputs, so they are all in one place
+
 ## Installing the Pieces
 
 I run notebooks inside VS Code, backed by environments managed with uv. Adjust the workflow if you prefer another editor, but the core steps stay the same.
@@ -93,15 +95,19 @@ _Italic text_
 
 - Bullet list item
 1. Numbered item
+```
 
-`inline code`
+## Code formatting:
+- `inline code` wraps code snippets in single backticks
+- Code blocks use triple backticks with language name:
 
 ```python
-print("Code block")
-```
+# Python code block
+x = 42
+print(f"Value: {x}")
 ```
 
-## Magic Commands You Will Actually Use
+## Magic Commands - I don't use these often but they can be handy
 
 - `%matplotlib inline` - Renders Matplotlib plots inside the notebook.
 - `%timeit expression` - Profiles a quick calculation.
@@ -112,7 +118,7 @@ Remember the leading `%` is required. Two percent signs (`%%`) apply the magic t
 
 ## Exporting and Sharing
 
-- **VS Code export**: `File -> Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved—trust me, I've lost hours trying to debug it. Stick with HTML and attach the file if you need to share.
+- **VS Code export**: `File -> Export` then choose HTML (most reliable). PDF export is hit-or-miss when charts are involved, trust me, I've lost hours trying to debug it. Stick with HTML and attach the file if you need to share.
 - **GitHub** renders `.ipynb` files directly in the browser. Commit the notebook and share the link.
 - **nbconvert** (optional):
 
