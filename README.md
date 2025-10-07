@@ -31,7 +31,7 @@ If you find this material valuable, consider sharing it with your team or suppor
 
 ## Overview
 
-Get ready to unlock the power of Python for engineering problems. Whether you are moving beyond spreadsheets or sharpening existing skills, this course gives you the tools, vocabulary, and mindset to automate work, analyse data, and build dependable workflows.
+This course teaches Python fundamentals for engineering work. You'll learn how to automate calculations, handle data, and build reliable workflows - practical skills that help you move beyond spreadsheets and solve real engineering problems.
 
 What you will learn:
 
