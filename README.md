@@ -99,11 +99,19 @@ Once you finish the modules, pull everything together:
 
 It does not need to be fancy, the goal is to ship something end to end, just like you will on the next project at work.
 
+## Contributing
+
+This course is designed to cover the bare essentials, the minimum viable foundation for using Python effectively in engineering work. If you believe there's essential content missing from this track, I want to hear about it.  
+
+Open a discussion or submit an issue with your suggestion. Explain what's missing, why it matters for the essentials, and how it fits into the learning path from complete beginner to productive engineer.
+Keep in mind that the Intermediate course will cover more advanced Python usage, object-oriented programming, working with libraries, performance optimization, and domain-specific applications. This Essentials track is intentionally minimal. The goal is to get engineers writing useful code quickly, not to be comprehensive.  
+
+If you're unsure whether a topic belongs in Essentials or Intermediate, suggest it anyway. The worst outcome is that we have a conversation about where it fits.  Engineers around the world are using this material. Your feedback makes it better for everyone who comes after you.
+
 ## Final Word
 
-You do not need to memorise Python. You need to learn how to think with it. Treat every module as a set of tools you can mix and match. Document what you try, share your wins, and send suggestions my way so the next engineer who lands here gets an even better experience.
+You do not need to memorise Python. You need to learn how to think with it. Treat every module as a set of tools you can mix and match. Remember this is the long game, take it easy and be consistent.
 
 See you on the inside.
 
 James 🌊
-
