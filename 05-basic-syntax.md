@@ -154,6 +154,6 @@ Keep your notebooks or scripts tidy, name variables clearly, and errors become e
 
 ## Practice
 
-If you want to see the ideas in action, load `examples/05-engineering-calculations.ipynb`.
+If you want to see the ideas in action, load `examples/01-basic-syntax-exercises.ipynb`.
 
 (c) Flocode, 2025

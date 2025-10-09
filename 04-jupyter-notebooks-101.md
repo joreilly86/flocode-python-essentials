@@ -75,8 +75,8 @@ Common shortcuts (command mode in VS Code notebooks):
 
 | Action | Shortcut |
 | --- | --- |
-| Run selected cell | `Shift+Enter` |
-| Run cell, advance | `Ctrl+Enter` |
+| Run cell and advance | `Shift+Enter` |
+| Run cell in place | `Ctrl+Enter` |
 | Insert cell above | `A` |
 | Insert cell below | `B` |
 | Delete cell | `D D` (press `D` twice) |
